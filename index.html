@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lalibela Ethiopian Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    .title_font {
+      position: absolute;
+      top: 18%;
+      left: 15%;
+      color: coral;
+      font-weight: 1500;
+      font-size: 750%;
+      font-family: fantasy;
+    }
+    .slogan_font {
+      position: absolute;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 350%;
+      top: 63%;
+      left: 30%;
+      color: coral;
+    }
+    .note{
+      position: absolute;
+      font-style:normal;
+      font-weight: bold;
+      font-size: 250%;
+      top: 84%;
+      left: 70%;
+      color: coral;
+    }
+
+    .title_image {
+      width: 400px;
+      height: 100px;
+      border-style: double;
+    }
+
+    .about_lalibela_em {
+      font-weight: bold;
+      font-size: x-large;
+      font-style: normal;
+      color: rgb(234, 230, 230);
+      position: absolute;
+      top: 18%;
+      left: 62%;
+      background-color: coral;
+    }
+    .menu_em {
+      font-weight: bold;
+      font-size: x-large;
+      font-style: normal;
+      color: rgb(234, 230, 230);
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      background-color: coral;
+    }
+
+    .location_em {
+      font-weight: bold;
+      font-size: x-large;
+      font-style: normal;
+      color: rgb(234, 230, 230);
+      position: absolute;
+      top: 18%;
+      left: 55%;
+      background-color: coral;
+    }
+    .contact_em {
+      font-weight: bold;
+      font-size: x-large;
+      font-style: normal;
+      color: rgb(234, 230, 230);
+      position: absolute;
+      top: 18%;
+      left: 73%;
+      background-color: coral;
+    }
+
+    img {
+      width: 400px;
+      border-radius: 20px;
+      border-style: ridge;
+    }
+    .description_class {
+      color: white;
+      font-weight: 1500;
+      font-family: cursive;
+      font-size: xx-large;
+      background-color: coral;
+    }
+    .about_lalibela_class {
+      font-style: italic;
+      font-size: larger;
+      font-weight: bold;
+    }
+
+    body {
+      background-image: url("/images/backbackground.jpg");
+      background-size: contain;
+      background-repeat: repeat center;
+    }
+    .front_image {
+      width: 1300px;
+      height: 600px;
+      border-radius: 100px;
+      border-style: ridge;
+      position: relative;
+      top: 17%;
+      left: 7%;
+    }
+    .migib {
+      color: white;
+      font-weight: 1500;
+      font-family: cursive;
+      font-size: 200%;
+    }
+    .menu_class {
+      color:chartreuse;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 300%;
+      background-size:10%;
+
+    }
+  </style>
+
+  <body>
+    <div class="backgroud_image"></div>
+
+    <header>
+      <img class="title_image" src="images/lalibela.png" alt="image of title" />
+      <img class="front_image" src="images/background1.jpeg" alt="front page image" />
+      <h1 class="title_font">Lalibela Ethiopian Restaurant</h1>
+      <h2 class="slogan_font">The Authentic Ethiopian Cuisine!</h2>
+      <h3 class="note">Unofficial website</h3>
+
+      <a href="#about"><em class="about_lalibela_em">About Lalibela </em></a>
+      <a href="#menu"><em class="menu_em">Menu</em></a>
+      <a href="#location"><em class="location_em">Location</em></a>
+      <a href="#contact"><em class="contact_em">Contact</em></a>
+    </header>
+    <main>
+      <section id="menu">
+        <h2 class="menu_class">Menu</h2>
+        <ul>
+          <li>
+            <h3 class="migib">Veggie Combo</h3>
+            <img
+              class="beyaynetu_image_class"
+              src="images/beyaynetu.jpeg"
+              alt="image of beyaynetu"
+            />
+            <p class="description_class">
+              A vegan dish with combination of cabbage and potatoes; beets;
+              gomen (similar to collard greens); lentils, spicy and non spicy;
+              chick peas, spicy and non spicy; and shiro, a stew made of ground
+              chick peas. All are served on “injera” a spongy bread made from
+              the grain “tef”. Price: $12.00
+            </p>
+          </li>
+          <li>
+            <h3 class="migib">Doro Wot</h3>
+            <img
+              class="doro_image_class"
+              src="images/doro.jpg"
+              alt="image of doro wot"
+            />
+            <p class="description_class">
+              A classic Ethiopian dish made with chicken in a spicy sauce,
+              served with injera.Flavor-packed Ethiopian stew with tender cooked
+              chicken in a fiery berbere spiced sauce topped with boiled
+              eggs.Traditionally slow-cooked for hours, this instant pot recipe
+              delivers authentic taste in a fraction of the time. Price: $13.00
+            </p>
+          </li>
+          <li>
+            <h3 class="migib">Sheklatibs</h3>
+            <img
+              class="sheklatibs_image_class"
+              src="images/sheklatibs.jpeg"
+              alt="image of Sheklatibs"
+            />
+            <p class="description_class">
+              Sliced meat served in a clay dish. Sliced beef or lamb, pan-fried
+              in butter, garlic and onion, tibs is one of the most popular
+              dishes among Ethiopians. Price: $12.00
+            </p>
+          </li>
+          <li>
+            <h3 class="migib">Gomenbesiga</h3>
+            <img
+              class="gomenbesiga_image_class"
+              src="images/gomenbesiga.jpg"
+              alt="image of Gomenbesiga"
+            />
+            <p class="description_class">
+              Gomen be siga is a traditional Ethiopian dish made with fresh
+              ingredients, clarified spiced butter, and lots of onions and
+              garlic for flavor. It consists of sautéed collard greens (gomen)
+              and chunks of beef (siga) as the key ingredients. Price: $10.00
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="location">
+        <h2 class="menu_class">Location</h2>
+        <p class="description_class">
+          1025 S Fairfax Ave, Los Angeles, CA 90019
+        </p>
+      </section>
+      <section id="about">
+        <h2 class="menu_class">About Lalibela</h2>
+        <p class="description_class">
+          Here at Lalibela we believe food embodies family, community,
+          tradition, culture, and identity. We cook every dish to share our
+          stories, culture, and traditions with you. We craft every cuisine with
+          love and creativity to make you fall in love not just with Ethiopian
+          food, but also Ethiopian culture. Your meal is skillfully prepared
+          from fresh and authentic ingredients to perfection. Eat what you love,
+          love what you eat, and share it with your loved ones. Enebla! Let’s
+          eat!
+        </p>
+      </section>
+      <section id="contact">
+        <h2 class="menu_class">Contact Us</h2>
+        <p class="description_class">
+          For more information you can contact us through our phone: (888)
+          123-4567 or our social media accounts.
+        </p>
+        <ul>
+          <li>
+            <a
+              class="description_class"
+              href="https://www.instagram.com/lalibelarestaurant"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="description_class"
+              href="https://twitter.com/lalibelarestaurant"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
